@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.10.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_43559</BlastOutput_query-ID>
+  <BlastOutput_query-def>NP_689520.2 tRNA (adenine(58)-N(1))-methyltransferase catalytic subunit TRMT61A [Homo sapiens]</BlastOutput_query-def>
+  <BlastOutput_query-len>289</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_43559</Iteration_query-ID>
+  <Iteration_query-def>NP_689520.2 tRNA (adenine(58)-N(1))-methyltransferase catalytic subunit TRMT61A [Homo sapiens]</Iteration_query-def>
+  <Iteration_query-len>289</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>sp|P46959.1|</Hit_id>
+  <Hit_def>RecName: Full=tRNA (adenine(58)-N(1))-methyltransferase catalytic subunit TRM61; AltName: Full=General control non-derepressible protein 14; Short=Protein GCD14; AltName: Full=tRNA(m1A58)-methyltransferase subunit TRM61; Short=tRNA(m1A58)MTase subunit TRM61 [Saccharomyces cerevisiae S288C]</Hit_def>
+  <Hit_accession>P46959</Hit_accession>
+  <Hit_len>383</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.808</Hsp_bit-score>
+      <Hsp_score>473</Hsp_score>
+      <Hsp_evalue>2.76302e-57</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>264</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>FVAYEELIKEGDTAILSLGHGAMVAVRVQRGAQTQTRHGVLRHSVDLIGRPFGSKVT-----CGRGGWVYVLHPTPELWTLNLPHRTQILYSTDIALITMMLELRPGSVVCESGTGSGSVSHAIIRTIAPTGHLHTVEFHQQRAEKAREEFQEH-RVGRWVTVRTQDVCRSGF-----------------GVSHVADAVFLDIPSPWEAVGHAWDALKV-EGGRFCSFSPCIEQVQRTCQALAARGFSELSTLEVLPQVYNVR</Hsp_qseq>
+      <Hsp_hseq>FSGYKDLIKEGDLTLIWVSRDNIKPVRMHSEEVFNTRYGSFPHK-DIIGKPYGSQIAIRTKGSNKFAFVHVLQPTPELWTLSLPHRTQIVYTPDSSYIMQRLNCSPHSRVIEAGTGSGSFSHAFARSV---GHLFSFEFHHIRYEQALEEFKEHGLIDDNVTITHRDVCQGGFLIKKGDTTSYEFGNNETAASLNANVVFLDLPAPWDAIPHLDSVISVDEKVGLCCFSPCIEQVDKTLDVLEKYGWTDVEMVEIQGRQYESR</Hsp_hseq>
+      <Hsp_midline>F  Y++LIKEGD  ++ +    +  VR+       TR+G   H  D+IG+P+GS++        +  +V+VL PTPELWTL+LPHRTQI+Y+ D + I   L   P S V E+GTGSGS SHA  R++   GHL + EFH  R E+A EEF+EH  +   VT+  +DVC+ GF                   S  A+ VFLD+P+PW+A+ H    + V E    C FSPCIEQV +T   L   G++++  +E+  + Y  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>sp|A6ZUK8.1|</Hit_id>
+  <Hit_def>RecName: Full=Cargo-transport protein YPP1; AltName: Full=Alpha-synuclein protective protein 1 [Saccharomyces cerevisiae YJM789]</Hit_def>
+  <Hit_accession>A6ZUK8</Hit_accession>
+  <Hit_len>817</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.9498</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>4.49263</Hsp_evalue>
+      <Hsp_query-from>213</Hsp_query-from>
+      <Hsp_query-to>265</Hsp_query-to>
+      <Hsp_hit-from>576</Hsp_hit-from>
+      <Hsp_hit-to>628</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>VQRTCQALAARGFSELSTLEVLPQVYNVRTVSLPPPDLGTGTDGPAGSDTSPF</Hsp_qseq>
+      <Hsp_hseq>LKLTQLALIEEIFGTLEALETLPEVFELYATLFPDSQPKLNSMGPKYSQTKEY</Hsp_hseq>
+      <Hsp_midline>++ T  AL    F  L  LE LP+V+ +     P       + GP  S T  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>sp|P40362.1|</Hit_id>
+  <Hit_def>RecName: Full=U3 small nucleolar RNA-associated protein 18; Short=U3 snoRNA-associated protein 18; AltName: Full=U three protein 18 [Saccharomyces cerevisiae S288C]</Hit_def>
+  <Hit_accession>P40362</Hit_accession>
+  <Hit_len>594</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.9498</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>4.59133</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>364</Hsp_hit-from>
+      <Hsp_hit-to>396</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>RGAQTQTRHGVLRHSVDLIGRPFGSKVTCGRGGWVYVLHPTPELWTL</Hsp_qseq>
+      <Hsp_hseq>QNSQTNSVHGIV--------------LLQGNNGWINILHSTSGLWLM</Hsp_hseq>
+      <Hsp_midline>+ +QT + HG++              +  G  GW+ +LH T  LW +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>sp|P46951.1|</Hit_id>
+  <Hit_def>RecName: Full=Cargo-transport protein YPP1; AltName: Full=Alpha-synuclein protective protein 1 [Saccharomyces cerevisiae S288C]</Hit_def>
+  <Hit_accession>P46951</Hit_accession>
+  <Hit_len>817</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>5.68227</Hsp_evalue>
+      <Hsp_query-from>213</Hsp_query-from>
+      <Hsp_query-to>265</Hsp_query-to>
+      <Hsp_hit-from>576</Hsp_hit-from>
+      <Hsp_hit-to>628</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>VQRTCQALAARGFSELSTLEVLPQVYNVRTVSLPPPDLGTGTDGPAGSDTSPF</Hsp_qseq>
+      <Hsp_hseq>LKLTQLALIEEIFGTLEALETLPEVFELYATLFPDSQPELNSMGPKYSQTKEY</Hsp_hseq>
+      <Hsp_midline>++ T  AL    F  L  LE LP+V+ +     P       + GP  S T  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>sp|P41821.1|</Hit_id>
+  <Hit_def>RecName: Full=Stretch-activated cation channel MID1; AltName: Full=Mating pheromone-induced death protein 2; Flags: Precursor [Saccharomyces cerevisiae S288C]</Hit_def>
+  <Hit_accession>P41821</Hit_accession>
+  <Hit_len>548</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.1794</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>7.3329</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>355</Hsp_hit-from>
+      <Hsp_hit-to>448</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>WVTVRTQDVCRSGFGVSHVADAVFLDIPSPWEAVGH----AWDALKVEGGRFCSFSPCIEQVQRTCQALAARGFSELSTLEVLPQVYN--VRTVSLP</Hsp_qseq>
+      <Hsp_hseq>YFTTRSTDVCSLIFGLDFCSDVAY-SVPTSSFSVGNKTLMAQTYDHIAEALYANFSKALQLI--SCDADKDARYSPVMTCDDCAEAYRDWVCAVSIP</Hsp_hseq>
+      <Hsp_midline>+ T R+ DVC   FG+   +D  +  +P+   +VG+    A     +    + +FS  ++ +  +C A     +S + T +   + Y   V  VS+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>sp|P32473.2|</Hit_id>
+  <Hit_def>RecName: Full=Pyruvate dehydrogenase E1 component subunit beta, mitochondrial; AltName: Full=Pyruvate dehydrogenase complex component E1 beta; Short=PDHE1-B; Flags: Precursor [Saccharomyces cerevisiae S288C]</Hit_def>
+  <Hit_accession>P32473</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.7942</Hsp_bit-score>
+      <Hsp_score>55</Hsp_score>
+      <Hsp_evalue>9.71409</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>227</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>LNLPHRTQILYS-TDIALIT----MMLELRPGSVVCESGTGSGSV----------SHAIIRTIAPTGHLHTVE</Hsp_qseq>
+      <Hsp_hseq>FTLPYKAKIEREGTDISIVTYTRNVQFSLEAAEILQKKYGVSAEVINLRSIRPLDTEAIIKTVKKTNHLITVE</Hsp_hseq>
+      <Hsp_midline>  LP++ +I    TDI+++T    +   L    ++ +    S  V          + AII+T+  T HL TVE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>7282</Statistics_db-num>
+      <Statistics_db-len>3350519</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
